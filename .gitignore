@@ -1,0 +1,29 @@
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Screenshots and test artifacts
+screenshots/
+test-results/
+playwright-report/
+blob-report/
+test-artifacts/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# VS Code (опционально, если не хотите делиться настройками)
+.vscode/
+!.vscode/extensions.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+node_modules/
