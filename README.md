@@ -2,6 +2,7 @@
 
 ### Что уже покрыто тестами:
 - ✅ [TodoMVC](https://demo.playwright.dev/todomvc/#/) – базовые сценарии (добавление, завершение, удаление задач)
+- ✅[DemoQA](https://demoqa.com) - Elements -> Links
 
 ### В планах:
 - 🔲 [DemoQA](https://demoqa.com) – тесты форм, виджетов, alerts
@@ -11,6 +12,7 @@
 
 Тест-кейсы для учебных проектов написаны в **Qase** и выгружены в репозиторий.
 
-- 🔗 [Ссылка на репозиторий с тест-кейсами (экспорт из Qase)](https://disk.yandex.ru/d/eTlQluddTkj_3g)
+- 🔗 Ссылка на репозиторий с тест-кейсами (экспорт из Qase)
 - Содержит тесты для:
-  - TodoMVC (CRUD, фильтрация)
+  - [TodoMVC (CRUD, фильтрация)](https://disk.yandex.ru/d/eTlQluddTkj_3g)
+  - [DemoQA: Elements -> Links](https://disk.yandex.ru/d/H2hc3S_EPy0sug)
