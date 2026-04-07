@@ -2,7 +2,7 @@
 
 ### Что уже покрыто тестами:
 - ✅ [TodoMVC](https://demo.playwright.dev/todomvc/#/) – базовые сценарии (добавление, завершение, удаление задач)
-- ✅[DemoQA](https://demoqa.com) - Elements -> Links
+- ✅[DemoQA](https://demoqa.com) - Elements -> Links, RadioButton
 
 ### В планах:
 - 🔲 [DemoQA](https://demoqa.com) – тесты форм, виджетов, alerts
@@ -15,4 +15,4 @@
 - 🔗 Ссылка на репозиторий с тест-кейсами (экспорт из Qase)
 - Содержит тесты для:
   - [TodoMVC (CRUD, фильтрация)](https://disk.yandex.ru/d/eTlQluddTkj_3g)
-  - [DemoQA: Elements -> Links](https://disk.yandex.ru/d/H2hc3S_EPy0sug)
+  - [DemoQA: Elements -> Links, RadioButton](https://disk.yandex.ru/d/H2hc3S_EPy0sug)
