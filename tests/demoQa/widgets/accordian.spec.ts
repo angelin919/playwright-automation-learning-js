@@ -58,7 +58,7 @@ test.describe('Проверка раздела elements Widgets - Accordian', ()
     })
 
   })
-  test('Проверка третий секции текст и кнопка соответствуют ', async () => {
+  test('Проверка третьей секции текст и кнопка соответствуют ', async () => {
     const button = await accordianPage.getSectionButton('section3')
 
     await test.step('Секция изначально закрыта', async () => {
@@ -78,7 +78,7 @@ test.describe('Проверка раздела elements Widgets - Accordian', ()
       await accordianPage.verifySectionTextMatches('section3')
 
     })
-    await test.step('Cодержимое третий секции не пустое ', async () => {
+    await test.step('Cодержимое третьей секции не пустое ', async () => {
       if (!await accordianPage.isSectionExpanded('section3')) {
         await accordianPage.clickSection('section3')
       }
