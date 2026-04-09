@@ -11,11 +11,12 @@ export abstract class BasePage {
         try {
             await this.page.goto(url, {
                 waitUntil:'domcontentloaded',
-                timeout: 30000
+                timeout: 60000
             });
             await this.page.waitForLoadState('networkidle', {timeout:10000})
         } catch (error) {
             console.log('Попытка загрузки страницы не удалась')
+            throw error;
         }
 
     }

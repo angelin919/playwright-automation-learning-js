@@ -60,18 +60,26 @@ export default defineConfig({
     {
       name: 'demoQa',
       testMatch: 'demoQa/**/*.spec.ts',
-      use: {
-        ...devices['Desktop Chrome'],
-        baseURL: 'https://demoqa.com'
-      },
-    }, {
-      name: 'saucedemo',
-      testMatch: 'saucedemo/**/*.spec.ts',
-      use: {
-        ...devices['Desktop Chrome'],
-        baseURL: 'https://www.saucedemo.com'
-      },
-    },
+    use: {
+            ...devices['Desktop Chrome'],
+            baseURL: 'https://demoqa.com',
+            launchOptions: {
+                args: [
+                    '--disable-web-security',
+                    '--disable-features=VizDisplayCompositor',
+                    '--disable-dev-shm-usage',
+                    '--no-sandbox'
+                ]
+            },
+          }
+    }, 
+    // {
+    //   name: 'demoQa-firefox',
+    //   testMatch: 'demoQa/**/*.spec.ts',
+    //   use: { ...devices['Desktop Firefox'], baseURL: 'https://demoqa.com' },
+    // },
+  ]
+
 
     // {
     //   name: 'firefox',
@@ -102,7 +110,6 @@ export default defineConfig({
     //   name: 'Google Chrome',
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     // },
-  ],
 
   /* Run your local dev server before starting the tests */
   // webServer: {
